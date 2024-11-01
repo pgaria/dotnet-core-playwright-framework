@@ -1,4 +1,4 @@
-﻿using AutoTestLibrary.Configuration;
+﻿using Tests.Configuration;
 using Tests.Model;
 
 namespace Tests.Common
