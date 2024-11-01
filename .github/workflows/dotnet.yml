@@ -21,7 +21,9 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Inside Project
-      run: cd dotnet-core-playwright-framework
+      run: pwd
+    - name: change Dir  
+      run: cd /home/runner/work/dotnet-core-playwright-framework/dotnet-core-playwright-framework
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
