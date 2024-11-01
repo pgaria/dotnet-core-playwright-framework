@@ -26,6 +26,7 @@ jobs:
       run: cd /home/runner/work/dotnet-core-playwright-framework/dotnet-core-playwright-framework
     - name: Restore dependencies
       run: dotnet restore
+      working-directory: /home/runner/work/dotnet-core-playwright-framework/dotnet-core-playwright-framework
     - name: Build
       run: dotnet build --no-restore
     - name: Test
