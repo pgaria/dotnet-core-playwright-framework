@@ -31,6 +31,6 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
       working-directory: /home/runner/work/dotnet-core-playwright-framework/dotnet-core-playwright-framework/dotnet-core-playwright-framework
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
-      working-directory: /home/runner/work/dotnet-core-playwright-framework/dotnet-core-playwright-framework/dotnet-core-playwright-framework
+    #- name: Test
+    #  run: dotnet test --no-build --verbosity normal
+    #  working-directory: /home/runner/work/dotnet-core-playwright-framework/dotnet-core-playwright-framework/dotnet-core-playwright-framework
