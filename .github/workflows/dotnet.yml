@@ -20,6 +20,11 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
+    - name: Print current directory
+      run: pwd
+    - name: List files
+      run: ls -la
+      working-directory: /home/runner/work/dotnet-core-playwright-framework/dotnet-core-playwright-framework  
     - name: Restore dependencies
       run: dotnet restore
       working-directory: /home/runner/work/dotnet-core-playwright-framework/dotnet-core-playwright-framework
